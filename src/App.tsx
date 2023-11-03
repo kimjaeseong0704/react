@@ -36,6 +36,7 @@ import Pattern from "./components/pattern/Pattern";
 import Mvc from "./components/pattern/Mvc";
 import Flux from "./components/pattern/Flux";
 import Redux1 from "./components/redux/Redux1";
+import Redux2 from "./components/redux/Redux2";
 
 import { useState, useCallback } from "react";
 import "./App.css";
@@ -122,6 +123,7 @@ function App() {
 			<Mvc></Mvc>
 			<Flux></Flux>
 			<Redux1></Redux1>
+			<Redux2></Redux2>
 			<hr />
 
 			<div>
